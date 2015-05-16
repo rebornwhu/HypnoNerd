@@ -10,29 +10,29 @@
 	<string>HypnoNerd</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>6134D386-CE76-4DB5-A719-306FB42881EA</key>
+		<key>1D6F0A09D77F02F22DC8822CE1693B6B59701BE2</key>
 		<string>https://github.com/rebornwhu/HypnoNerd.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>HypnoNerd.xcodeproj/project.xcworkspace</string>
+	<string>HypnoNerd.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>6134D386-CE76-4DB5-A719-306FB42881EA</key>
+		<key>1D6F0A09D77F02F22DC8822CE1693B6B59701BE2</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/rebornwhu/HypnoNerd.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6134D386-CE76-4DB5-A719-306FB42881EA</string>
+	<string>1D6F0A09D77F02F22DC8822CE1693B6B59701BE2</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6134D386-CE76-4DB5-A719-306FB42881EA</string>
+			<string>1D6F0A09D77F02F22DC8822CE1693B6B59701BE2</string>
 			<key>IDESourceControlWCCName</key>
 			<string>HypnoNerd</string>
 		</dict>
