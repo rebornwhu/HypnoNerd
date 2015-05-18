@@ -30,7 +30,20 @@
 
 - (void)loadView
 {
-    BNRHypnosisView *backgroundView = [[BNRHypnosisView alloc] init];
+    CGRect frame = [UIScreen mainScreen].bounds;
+    BNRHypnosisView *backgroundView = [[BNRHypnosisView alloc] initWithFrame:frame];
+    
+    CGRect textFieldRect = CGRectMake(40, 70, 240, 30);
+    UITextField *textField = [[UITextField alloc] initWithFrame:textFieldRect];
+    
+    textField.borderStyle = UITextBorderStyleRoundedRect;
+    
+    textField.placeholder = @"Hypnotize me";
+    textField.returnKeyType = UIReturnKeyDone;
+    
+    textField.delegate = self;
+    
+    [backgroundView addSubview:textField];
     
     self.view = backgroundView;
 }
@@ -39,6 +52,12 @@
 {
     [super viewDidLoad];
     NSLog(@"BNRHypnosisViewController loaded its view.");
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    NSLog(@"%@", textField.text);
+    return YES;
 }
 
 @end

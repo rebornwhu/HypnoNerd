@@ -57,7 +57,7 @@
     [path stroke];
     
 //    [self bronzeChallenge];
-    [self showSegmentedControl];
+//    [self showSegmentedControl];
 }
 
 //TODO: Fix the segmentedControl
