@@ -57,6 +57,16 @@
     [path stroke];
     
 //    [self bronzeChallenge];
+    [self showSegmentedControl];
+}
+
+//TODO: Fix the segmentedControl
+- (void)showSegmentedControl
+{
+    NSArray *segmentedColors = [[NSArray alloc] initWithObjects:@"Red", @"Green", @"Blue", nil];
+    UISegmentedControl *segmentedView = [[UISegmentedControl alloc] initWithItems:segmentedColors];
+    CGRect segmentedFrame = CGRectMake(60, 60, 120, 60);
+    [segmentedView drawRect:segmentedFrame];
 }
 
 - (void)bronzeChallenge
